@@ -1,0 +1,24 @@
+x= int(input(
+    "enter your first no.:"
+))
+y= int(input(
+    "enter your second no.:"
+))
+print(
+    " enter your expression \n + for addition \n - for subtraction \n * for multiply \n / for division "
+)
+z=input(
+    "enter:"
+)
+if(z=="+"):
+    print(x+y)
+elif(z=="-"):
+    print(x-y)
+elif(z=="*"):
+    print(x*y)
+elif(z=="/"):
+    print(x/y)
+else:
+    print(
+        "not possible"
+    )
