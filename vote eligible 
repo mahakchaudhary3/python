@@ -1,0 +1,34 @@
+x=int(input(
+    "enter your age:"
+    ))
+if(x>=18):
+    print(
+        "you are eligible to  vote"
+    )
+    print(
+        "which party do you want to vote for  a.BJP   b.congress   c.others"
+    )
+    y=input(
+        "enter the party name:"
+    )
+    if(y=="Congress"):
+        print(
+            "you have voted for Congress"
+        )
+    elif(y=="BJP"):
+        print(
+            "you have voted for BJP"
+        )
+    elif(y=="others"):
+        print(
+            "you have voted for Others"
+        )
+    else:
+        print(
+            "invaild Party"
+        )
+else:
+    print(
+        "you are not eligible to vote"
+    )
+
